@@ -6,9 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+derive-new = "0.5.9"
 euclid = "0.22.7"
 evdev = "0.11.4"
 gumdrop = "0.8.1"
+nix = { version = "0.23.1", default-features = false }
 
 [profile.release]
 opt-level = "s"
