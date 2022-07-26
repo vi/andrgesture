@@ -21,6 +21,8 @@ Obviously, the power button should wake up screen, not shut it down.
 
 The program listens either keyboard (i.e. power/voldn buttons) or touchscreen events, not both. Timeouts are used to manage that attention.
 
+Unfortuantely, native Android way of controlling the torch (e.g. for camera) stops working until reboot after `torchctl` (or sysfs brightness control) gets used.
+
 
 Usage
 ---
